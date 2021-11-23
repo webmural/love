@@ -13,3 +13,20 @@ body {
 article {
   line-height: 1.5;
 }
+
+menu {
+  padding: 0;
+  list-style: none;
+}
+
+sup {
+  display: contents;
+  font-size: inherit;
+  font-weight: 500;
+}
+
+sub {
+  display: contents;
+  font-size: inherit;
+  font-weight: 600;
+}
