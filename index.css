@@ -30,3 +30,8 @@ sub {
   font-size: inherit;
   font-weight: 600;
 }
+
+:focus {
+  outline-width: thick;
+  outline-style: groove;
+}
