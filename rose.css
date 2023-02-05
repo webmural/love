@@ -1,22 +1,17 @@
 .rose {
-  --rose: pink;
+  --rose: khaki;
   background: var(--rose);
   color: #111;
 }
 
 .rose ::selection {
-  background: #111;
-  color: var(--rose);
+  background: #0be;
+  color: indigo;
 }
 
 .rose :any-link {
   color: indigo;
-}
-
-@media (prefers-contrast: less) {
-  .rose {
-    --rose: lightpink;
-  }
+  background: deeppink;
 }
 
 @media (prefers-contrast: more) {
@@ -26,6 +21,10 @@
 }
 
 .rose mark {
-  color: var(--rose);
-  background: indigo;
+  color: indigo;
+  background: hotpink;
+}
+
+:focus {
+  box-shadow: 0 0 0 1ch #bae;
 }
